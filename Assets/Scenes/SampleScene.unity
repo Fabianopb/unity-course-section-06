@@ -277,6 +277,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5efb94429a58645f18dc3e8c1b487251, type: 3}
+--- !u!4 &655304781 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 15192784352809609, guid: 9e2bd47450c45441890d86b5453a19ef, type: 3}
+  m_PrefabInstance: {fileID: 10038991618415356}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1001039854
 GameObject:
   m_ObjectHideFlags: 0
@@ -420,6 +425,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2376993939120732259, guid: 8418f5a601543488b95bb8b42678b38d, type: 3}
+      propertyPath: waypoints.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2376993939120732259, guid: 8418f5a601543488b95bb8b42678b38d, type: 3}
+      propertyPath: waypoints.Array.data[0]
+      value: 
+      objectReference: {fileID: 655304781}
+    - target: {fileID: 2376993939120732259, guid: 8418f5a601543488b95bb8b42678b38d, type: 3}
+      propertyPath: waypoints.Array.data[1]
+      value: 
+      objectReference: {fileID: 1961622349}
+    - target: {fileID: 2376993939120732259, guid: 8418f5a601543488b95bb8b42678b38d, type: 3}
+      propertyPath: waypoints.Array.data[2]
+      value: 
+      objectReference: {fileID: 2057711855}
     - target: {fileID: 4896823367757673136, guid: 8418f5a601543488b95bb8b42678b38d, type: 3}
       propertyPath: m_Name
       value: Enemy
@@ -584,6 +605,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fcc5fcf179544b1fa7dd3e87be3178c, type: 3}
+--- !u!4 &1961622349 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4830712271550224901, guid: 9e2bd47450c45441890d86b5453a19ef, type: 3}
+  m_PrefabInstance: {fileID: 10038991618415356}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2057711855 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6090506047927088476, guid: 9e2bd47450c45441890d86b5453a19ef, type: 3}
+  m_PrefabInstance: {fileID: 10038991618415356}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &10038991618415356
 PrefabInstance:
   m_ObjectHideFlags: 0
