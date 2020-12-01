@@ -9,6 +9,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] float minTimeBetweenShots = 0.2f;
     [SerializeField] float maxTimeBetweenShots = 3f;
     [SerializeField] GameObject projectile;
+    [SerializeField] GameObject explosionVFX;
     [SerializeField] float projectileSpeed = 10f;
 
     void Start()
@@ -56,7 +57,14 @@ public class Enemy : MonoBehaviour
         damageDealer.Hit();
         if (health <= 0)
         {
-            Destroy(gameObject);
+            Die();
         }
+    }
+
+    private void Die()
+    {
+        Destroy(gameObject);
+        GameObject explosionObject = Instantiate(explosionVFX, transform.position, Quaternion.identity);
+        Destroy(explosionObject, 1.0f);
     }
 }

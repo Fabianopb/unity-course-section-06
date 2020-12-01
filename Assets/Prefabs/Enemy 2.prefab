@@ -115,6 +115,7 @@ MonoBehaviour:
   minTimeBetweenShots: 0.2
   maxTimeBetweenShots: 3
   projectile: {fileID: 5388400286418750334, guid: 739afc7f361c743ed94590aa849b4fa5, type: 3}
+  explosionVFX: {fileID: 3256145144902241298, guid: 73edf0f1ff1014b04bf5271ae4f34d65, type: 3}
   projectileSpeed: 10
 --- !u!60 &4248016262647950701
 PolygonCollider2D:
