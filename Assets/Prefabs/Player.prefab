@@ -99,6 +99,10 @@ MonoBehaviour:
   moveSpeed: 10
   padding: 1
   health: 1000
+  laserSFX: {fileID: 8300000, guid: 363926e2b71874492b42b0372c263b6f, type: 3}
+  laserVolume: 0.25
+  explosionSFX: {fileID: 8300000, guid: 406b9eae322c740a29b01817d489de90, type: 3}
+  explosionVolume: 0.7
   laserPrefab: {fileID: 8048485628751178836, guid: 55a41126eaf0c45baa89d3c2b9b2d5b9, type: 3}
   projectileSpeed: 20
   projectileFiringPeriod: 0.1
