@@ -6,7 +6,7 @@ using UnityEngine;
 public class GameSession : MonoBehaviour
 {
 
-    int score = 0;
+    [SerializeField] int score = 0;
 
     private void Awake()
     {
