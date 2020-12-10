@@ -18,6 +18,7 @@ public class GameSession : MonoBehaviour
         int gameSessionCount = FindObjectsOfType<GameSession>().Length;
         if (gameSessionCount > 1)
         {
+            gameObject.SetActive(false);
             Destroy(gameObject);
         }
         else
