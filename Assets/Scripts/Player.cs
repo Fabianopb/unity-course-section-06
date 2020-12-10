@@ -93,6 +93,11 @@ public class Player : MonoBehaviour
         Destroy(gameObject);
     }
 
+    public int GetHealth()
+    {
+        return health;
+    }
+
     IEnumerator FireContinuously()
     {
         while (true)
